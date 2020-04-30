@@ -463,7 +463,6 @@ section.bckgrnd-grey {
   -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
   margin: 0px;
-  cursor: pointer;
   transition: all 0.3s ease;
   border-radius: 0.25rem;
   background: #fff;
