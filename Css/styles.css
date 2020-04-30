@@ -93,6 +93,10 @@ ul.menu-ul li a {
   bottom: 6px;
 }
 
+a.resume {
+  color: #ff5a5f !important;
+}
+
 #mobile-menu {
   display: block;
   position: fixed;
