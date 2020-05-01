@@ -185,7 +185,7 @@ header {
 
 .mobile-content h2 {
   color: #fff;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 400;
   letter-spacing: 1px;
   margin-bottom: 1rem;
@@ -200,7 +200,7 @@ header {
 
 .mobile-content p {
   color: #fff;
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 2rem;
   position: relative;
   animation: movInLeft;
@@ -713,10 +713,6 @@ footer {
   }
 
   section {
-    padding: 3rem 1rem;
-  }
-
-  .mobile-content {
     padding: 3rem 1rem;
   }
 
