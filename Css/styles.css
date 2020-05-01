@@ -254,9 +254,15 @@ button[type="submit"] {
   -moz-box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.17);
   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.17);
   transition: all 0.3s;
+  width: 100%;
+  padding: 0.5rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 0.25rem;
 }
 
-input[type="submit"]:hover {
+input[type="submit"]:hover,
+button[type="submit"]:hover {
   box-shadow: none;
 }
 
