@@ -244,7 +244,8 @@ input {
   font-size: 18px;
 }
 
-input[type="submit"] {
+input[type="submit"],
+button[type="submit"] {
   background: #ff5a5f;
   color: #fff;
   cursor: pointer;
