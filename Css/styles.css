@@ -62,22 +62,26 @@ ul.menu-ul li:not(:last-child) {
   position: relative;
 }
 
-.nav-link:before {
+.nav-link:after {
   content: "";
   position: absolute;
-  width: 100%;
+  z-index: -1;
+  right: 0;
+  width: 0;
+  bottom: -5px;
+  background: #fe5151;
   height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #ff5a5f;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s ease-in-out 0s;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
 }
 
-.nav-link:hover:before {
-  visibility: visible;
-  transform: scaleX(1);
+.nav-link:hover:after,
+.nav-link:focus:after,
+.nav-link:active:after {
+  left: 0;
+  right: auto;
+  width: 100%;
 }
 
 .lines {
