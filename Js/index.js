@@ -2,8 +2,8 @@
 // $('.lines').on( "click", function() {$('.mobile-menu').css( "left", "0");
 //   $('.mobile-menu').addClass('active');
 // });
-
-$("main").on("click", function () {
+let close = document.querySelectorAll(".mobile-link");
+$(close).on("click", function () {
   $("#mobile-menu").css("left", "-270px");
   $("#mobile-menu").removeClass("active");
   $(".top").removeClass("clicked");
